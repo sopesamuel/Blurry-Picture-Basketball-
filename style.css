@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+overflow: hidden;
+}
+
+.bg{
+    background-image: url('mini.jpg');
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 200vh;
+    height: 100vh;
+    filter: blur(30px);
+}
+
+.Loading{
+    color: white;
+    font-size: 50px;
+    margin-top: 500px;
+    padding: 50px;
+}
